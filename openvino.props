@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\my_program\openvino_tools\openvino_2021.4.752\deployment_tools\inference_engine\include;C:\My_Program\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\My_Program\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>C:\My_Program\opencv\build\x64\vc14\lib\opencv_world453d.lib;D:\my_program\openvino_tools\openvino_2021\inference_engine\lib\intel64\Debug\inference_engined.lib;D:\my_program\openvino_tools\openvino_2021\inference_engine\lib\intel64\Debug\inference_engine_c_apid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
